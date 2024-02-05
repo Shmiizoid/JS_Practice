@@ -1,3 +1,13 @@
-body {
-    background-color: antiquewhite;
+.grid {
+    width:200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    background-color: red;
 }
